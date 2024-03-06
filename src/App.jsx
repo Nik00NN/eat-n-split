@@ -53,6 +53,7 @@ export default function App() {
         <FormSplitBill
           selectedFriend={selectedFriend}
           onSplitBill={handleSplitBill}
+          key={2 * Math.random()}
         />
       )}
     </div>
